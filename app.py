@@ -1,18 +1,18 @@
 # imports
 import streamlit as st
-import pickle
-import sys
+import pickle , sys , nltk
 sys.path.append("./src")
 from src import textPreprocessor as tp
 
 # import models
-
 with open("./src/classifier.pkl","rb") as f:
     classifier = pickle.load(f)
 
 with open("./src/vectorizer.pkl","rb") as f:
     vecotrizer = pickle.load(f)
 
+nltk.download("punkt")
+nltk.download("stopwords")
 
 # app configuration
 st.set_page_config(
