@@ -17,7 +17,7 @@ with open("./src/vectorizer.pkl","rb") as f:
 # app configuration
 st.set_page_config(
         page_title="SMS Spam Classifier",
-        page_icon="./src/download.png"
+        page_icon="./src/icon.png"
     )
 
 # app body
