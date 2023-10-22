@@ -3,7 +3,7 @@
 
 A python jupyter notebook which will train machine learning models to detect Spam messages.The project is hosted at [streamlit app](https://pratham-ak2004-sms-spam-classifier-app-ltmnlx.streamlit.app/) on the web.
 
-![streamlit web preview](https://github.com/pratham-ak2004/sms-spam-classifier/blob/main/src/readme_image_1.png)
+![streamlit web preview](https://github.com/pratham-ak2004/sms-spam-classifier/blob/main/src/readme_image_1.png?raw=true)
 
 
 ## Features
